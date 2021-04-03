@@ -6,7 +6,7 @@ use SpecialPage;
 
 class SpecialBootstrapExamples extends SpecialPage {
 	function __construct() {
-		parent::__construct( 'bootstrapexamples' );
+		parent::__construct( 'BootstrapExamples' );
 	}
 
 	function execute( $par ) {
