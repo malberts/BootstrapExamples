@@ -1,0 +1,24 @@
+.bs-component + .bs-component {
+    margin-top: 1rem;
+}
+
+.bs-component .card {
+  margin-bottom: 1rem;
+}
+
+.bs-component .modal {
+    position: relative;
+    display: block;
+}
+
+.bs-component .modal-dialog {
+    width: 90%;
+}
+
+.nav-tabs {
+    margin-bottom: 15px;
+}
+
+.progress {
+    margin-bottom: 10px;
+}

@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Morne Alberts"
+		]
+	},
+	"bootstrapexamples": "Bootstrap Examples",
+	"bootstrapexamples-desc": "Provides examples of all Bootstrap 4.6 components.",
+	"specialpages-group-bootstrapexamples": "Bootstrap Examples"
+}

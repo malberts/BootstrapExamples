@@ -1,0 +1,42 @@
+{
+	"name": "Bootstrap Examples",
+	"author": [
+		"Morne Alberts"
+	],
+	"url": "https://github.com/malberts/BootstrapExamples",
+	"descriptionmsg": "bootstrapexamples-desc",
+	"license-name": "GPL-3.0-or-later",
+	"type": "specialpage",
+	"requires": {
+		"MediaWiki": ">= 1.35.0"
+	},
+	"version": "0.0.1",
+	"AutoloadNamespaces": {
+		"BootstrapExamples\\": "src/"
+	},
+	"SpecialPages": {
+		"BootstrapExamples": "BootstrapExamples\\SpecialBootstrapExamples"
+	},
+	"MessagesDirs": {
+		"BootstrapExamples": [
+			"i18n"
+		]
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "resources",
+		"remoteExtPath": "BootstrapExamples/resources"
+	},
+	"ResourceModules": {
+		"ext.bootstrapExamples": {
+			"dependencies": [],
+			"messages": [],
+			"styles": [
+				"ext.bootstrapExamples.css"
+			],
+			"scripts": [
+				"ext.bootstrapExamples.js"
+			]
+		}
+	},
+	"manifest_version": 2
+}
