@@ -11,6 +11,9 @@
 		"MediaWiki": ">= 1.35.0"
 	},
 	"version": "0.0.1",
+	"ExtensionMessagesFiles": {
+		"BootstrapExamplesAlias": "src/BootstrapExamples.i18n.alias.php"
+	},
 	"AutoloadNamespaces": {
 		"BootstrapExamples\\": "src/"
 	},
