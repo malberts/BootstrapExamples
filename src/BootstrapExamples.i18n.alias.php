@@ -9,5 +9,5 @@
 $specialPageAliases = [];
 
 $specialPageAliases['en'] = [
-	'BootstrapExamples' => [ 'BootstrapExamples', 'Bootstrap Examples' ],
+	'BootstrapExamples' => [ 'BootstrapExamples' ],
 ];
