@@ -2,6 +2,7 @@
 
 namespace BootstrapExamples;
 
+use ExtensionRegistry;
 use SpecialPage;
 
 class SpecialBootstrapExamples extends SpecialPage {
@@ -25,8 +26,16 @@ class SpecialBootstrapExamples extends SpecialPage {
 		$this->setHeaders();
 		$out->addModules( [ 'ext.bootstrapExamples' ] );
 
+		$registry = ExtensionRegistry::getInstance();
+		if ( $registry->isLoaded( 'Bootstrap' ) ) {
+			$version = $registry->getAllThings()['Bootstrap']['version'];
+		} else {
+			$version = 'unavailable';
+		}
+
 		// Show Bootstrap library version.
-		$out->addHTML( '<p>Bootstrap library version: <span id="bootstrap-version"></span>' );
+		$out->addHTML( '<p>Bootstrap extension: <span id="bootstrap-ext-version">' . $version . '</span></p>' );
+		$out->addHTML( '<p>Bootstrap library: <span id="bootstrap-version"></span></p>' );
 
 		// Add the default example.
 		$examples = file_get_contents( __DIR__ . '/../resources/examples.html' );

@@ -8,7 +8,10 @@
 	"license-name": "GPL-3.0-or-later",
 	"type": "specialpage",
 	"requires": {
-		"MediaWiki": ">= 1.35.0"
+		"MediaWiki": ">= 1.35.0",
+		"extensions": {
+			"Bootstrap": "*"
+		}
 	},
 	"version": "0.0.1",
 	"ExtensionMessagesFiles": {
@@ -31,7 +34,9 @@
 	},
 	"ResourceModules": {
 		"ext.bootstrapExamples": {
-			"dependencies": [],
+			"dependencies": [
+				"ext.bootstrap.scripts"
+			],
 			"messages": [],
 			"styles": [
 				"ext.bootstrapExamples.css"
