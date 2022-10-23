@@ -1,7 +1,7 @@
 {
 	"name": "mediawiki/bootstrap-examples",
 	"type": "mediawiki-extension",
-	"description": "Provides a special page with Bootstrap 4 component examples.",
+	"description": "Provides a special page with Bootstrap 5 component examples.",
 	"keywords": [
 		"wiki",
 		"MediaWiki",
