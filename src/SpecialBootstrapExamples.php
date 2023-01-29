@@ -58,12 +58,12 @@ class SpecialBootstrapExamples extends SpecialPage {
 		$out->addHTML(
 			'<p class="border rounded bg-light p-2 mt-3">' .
 			"Based on the Bootstrap 5.3 " .
-			'<a href="https://github.com/thomaspark/bootswatch/blob/v5/docs/default/index.html" target="_blank">' .
+			'<a href="https://bootswatch.com/default/" target="_blank">' .
 			"Bootswatch Default Example" .
 			"</a> " .
 			"by " .
 			'<a href="https://thomaspark.co/">Thomas Park</a>. ' .
-			'(<a href="https://github.com/thomaspark/bootswatch">Source</a>)' .
+			'(<a href="https://github.com/thomaspark/bootswatch/blob/v5/docs/default/index.html">Source</a>)' .
 			"</p>"
 		);
 	}
