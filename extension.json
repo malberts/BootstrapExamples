@@ -31,9 +31,6 @@
 	},
 	"ResourceModules": {
 		"ext.bootstrapExamples": {
-			"dependencies": [
-				"ext.bootstrap.scripts"
-			],
 			"messages": [],
 			"styles": [
 				"ext.bootstrapExamples.css"
